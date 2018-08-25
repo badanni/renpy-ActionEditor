@@ -614,14 +614,14 @@ screen _action_editor(tab="images", layer="master", name="", time=0):
 init -1600:
     style action_editor_button:
         size_group "action_editor"
-        outlines [ (absolute(3), "#000", absolute(0), absolute(0)) ]
+        outlines [ (absolute(1), "#000", absolute(0), absolute(0)) ]
         idle_background None
         insensitive_background None
     style action_editor_button_text:
         color "#aaa"
         selected_color "#fff"
         insensitive_color "#777"
-        outlines [ (absolute(3), "#000", absolute(0), absolute(0)) ]
+        outlines [ (absolute(1), "#000", absolute(0), absolute(0)) ]
     style action_editor_a_button:
         take action_editor_button
         size_group None

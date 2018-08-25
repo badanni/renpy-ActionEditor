@@ -62,13 +62,13 @@ screen _image_selecter(default, string=""):
             #                 textbutton tag action Return(default + (tag, )) hovered _viewers.ShowImage(default, tag) unhovered Function(renpy.hide, "preview", layer="screens")
 init:
     style image_selecter_input:
-        outlines [ (absolute(3), "#000", absolute(0), absolute(0)) ]
+        outlines [ (absolute(1), "#000", absolute(0), absolute(0)) ]
     style image_selecter_button:
         size_group "image_selecter"
         idle_background None
     style image_selecter_button_text:
         xalign .0
-        outlines [ (absolute(3), "#000", absolute(0), absolute(0)) ]
+        outlines [ (absolute(1), "#000", absolute(0), absolute(0)) ]
 init -2000 python:
     def _open_image_viewer():
         if not renpy.config.developer:
